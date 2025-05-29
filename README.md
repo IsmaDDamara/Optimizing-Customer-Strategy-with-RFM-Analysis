@@ -9,29 +9,28 @@ Tujuan dari proyek ini adalah untuk melakukan segmentasi pelanggan berdasarkan n
 - Membantu pengambilan keputusan bisnis berdasarkan perilaku pelanggan.
 
 ## 🧭 Langkah-langkah Analisis
-1. Pengumpulan Data
+1. **Pengumpulan Data**
 - Dataset transaksi pelanggan yang mencakup ID pelanggan, tanggal transaksi, dan nilai pembelian.
 
-2. Pembersihan Data
+2. **Pembersihan Data**
 - Menangani nilai yang hilang dan duplikat
 - Konversi format tanggal
 - Menyaring data yang tidak relevan
 
-3. Perhitungan Nilai RFM
+3. **Perhitungan Nilai RFM**
 - Recency: Berapa hari sejak transaksi terakhir hingga tanggal referensi.
 - Frequency: Jumlah transaksi yang dilakukan pelanggan.
 - Monetary: Total nilai uang yang dibelanjakan.
 
-4. Skoring RFM
+4. **Skoring RFM**
 - Memberi skor 1–5 untuk masing-masing komponen RFM berdasarkan kuantil.
 - Menggabungkan skor menjadi segmentasi pelanggan.
 
-5. Segmentasi Pelanggan
-
+5. **Segmentasi Pelanggan**
 - Mengelompokkan pelanggan ke dalam segmen seperti:
 Champions, Loyal Customers, Potential Loyalist, At Risk, Lost Customers.
 
-6. Visualisasi dan Dashboard Interaktif
+6. **Visualisasi dan Dashboard Interaktif**
 - Menampilkan distribusi segmen, statistik masing-masing segmen, dan insights lainnya.
 
 ## ▶️ Cara Menjalankan
