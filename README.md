@@ -2,6 +2,7 @@
 
 ## 📌 Background
 
+<<<<<<< HEAD
 In today’s business landscape, understanding customer behavior is essential for enhancing loyalty and profitability. One effective method for customer segmentation is **RFM Analysis**—which stands for **Recency**, **Frequency**, and **Monetary**. RFM allows businesses to categorize customers based on how recently they made a purchase (Recency), how often they purchase (Frequency), and how much they spend (Monetary). With this segmentation, companies can tailor marketing strategies to be more targeted and personalized.
 
 ## 🎯 Project Objectives
@@ -17,6 +18,32 @@ The objectives of this project are to perform customer segmentation based on RFM
 1. **Data Collection**
 
    * Transaction dataset including customer ID, transaction dates, and purchase amounts.
+=======
+## 🧭 Langkah-langkah Analisis
+1. **Pengumpulan Data**
+- Dataset transaksi pelanggan yang mencakup ID pelanggan, tanggal transaksi, dan nilai pembelian.
+
+2. **Pembersihan Data**
+- Menangani nilai yang hilang dan duplikat
+- Konversi format tanggal
+- Menyaring data yang tidak relevan
+
+3. **Perhitungan Nilai RFM**
+- Recency: Berapa hari sejak transaksi terakhir hingga tanggal referensi.
+- Frequency: Jumlah transaksi yang dilakukan pelanggan.
+- Monetary: Total nilai uang yang dibelanjakan.
+
+4. **Skoring RFM**
+- Memberi skor 1–5 untuk masing-masing komponen RFM berdasarkan kuantil.
+- Menggabungkan skor menjadi segmentasi pelanggan.
+
+5. **Segmentasi Pelanggan**
+- Mengelompokkan pelanggan ke dalam segmen seperti:
+Champions, Loyal Customers, Potential Loyalist, At Risk, Lost Customers.
+
+6. **Visualisasi dan Dashboard Interaktif**
+- Menampilkan distribusi segmen, statistik masing-masing segmen, dan insights lainnya.
+>>>>>>> 248d199256d95f87de07905ab2682c10b631f64d
 
 2. **Data Cleaning**
 
